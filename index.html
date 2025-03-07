@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SMCC Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand" href="#">SMCC</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="container text-center my-5">
+    <img src="/images/Smcc_logo.gif" alt="SMCC Logo" class="img-fluid mb-3" width="150">
+    <h2>Explore SMCC</h2>
+    <p>Providing quality education and services to our students.</p>
+    
+    <div class="alert alert-info mt-4" role="alert">
+        <h4>📣 Important Announcement!</h4>
+        <p><strong>Enrollment for the upcoming semester is now open!</strong></p>
+        <a href="#" class="btn btn-danger">Enroll Now</a>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="container my-5">
+    <h2 class="text-center">About SMCC</h2>
+    <p>Saint Michael College of Caraga also referred to by its acronym SMCC is a private, Roman Catholic, basic education and higher education institution run by the Roman Catholic Diocese of Butuan in Nasipit, Agusan del Norte in the Philippines. It was established in 1948 by the Missionaries of the Sacred Heart (MSC) fathers. Its main campus is located at Atupan Street, Barangay 4 Poblacion, Nasipit, Agusan del Norte. The second campus is located in Brgy. Triangulo houses the elementary department</p>
+    
+    <div class="accordion mt-4" id="aboutAccordion">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#vision">
+                    Vision
+                </button>
+            </h2>
+            <div id="vision" class="accordion-collapse collapse show" data-bs-parent="#aboutAccordion">
+                <div class="accordion-body">
+                  <p>Saint Michael College of Caraga envisions to be a university by 2035 and upholds spiritual formation and excellence in teaching, service, and research.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#mission">
+                    Mission
+                </button>
+            </h2>
+            <div id="mission" class="accordion-collapse collapse" data-bs-parent="#aboutAccordion">
+                <div class="accordion-body">
+                  <p>As such SMCC, commits itself:</p>
+        <ul>
+          <li>SMCC shall provide spiritual formation and learning culture that will ensure the students with excellent and rewarding learning experience that transform lives, abound spirituality, develop skills and prepare future leaders;</li>
+          <li>SMCC shall engage to dynamic, innovative, and interdisciplinary researches that are publishable to advance and achieve institutional initiatives; and</li>
+          <li>SMCC shall commit to serve the diverse and local communities in fostering innovations through service-learning that enhances reciprocal community partnerships for spiritual and social development.</
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="container my-5">
+    <h2 class="text-center">Our Services</h2>
+    <div class="row text-center mt-4">
+        <div class="col-md-4">
+            <img src="/images/1738147317269.jpg" class="img-fluid rounded shadow">
+            <h4>Student Counseling</h4>
+        </div>
+        <div class="col-md-4">
+            <img src="/images/1738147367287.jpg" class="img-fluid rounded shadow">
+            <h4>Library Services</h4>
+        </div>
+        <div class="col-md-4">
+            <img src="/images/1738147589338.jpg" class="img-fluid rounded shadow">
+            <h4>Admissions & Registration</h4>
+        </div>
+    </div>
+</section>
+
+<!-- Courses Section -->
+<section id="courses" class="container my-5">
+    <h2 class="text-center">Courses Offered</h2>
+
+    <div class="accordion" id="coursesAccordion">
+      <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#elementary">
+                    Elementary
+                </button>
+            </h2>
+            <div id="elementary" class="accordion-collapse collapse show" data-bs-parent="#coursesAccordion">
+                <div class="accordion-body">
+                    <ul>
+                        <li>Nursery</li>
+                        <li>Grade 1-6</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#seniorHigh">
+                    Senior High School
+                </button>
+            </h2>
+            <div id="seniorHigh" class="accordion-collapse collapse show" data-bs-parent="#coursesAccordion">
+                <div class="accordion-body">
+                    <ul>
+                        <li>STEM</li>
+                        <li>HUMSS</li>
+                        <li>ABM</li>
+                        <li>TVL-ICT</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#college">
+                    College Programs
+                </button>
+            </h2>
+                 <div id="college" class="accordion-collapse collapse" data-bs-parent="#coursesAccordion">
+                <div class="accordion-body">
+                    <h5>College of Arts & Sciences</h5>
+                <ul>
+                    <li>Bachelor of Arts in English Language</li>
+                </ul>
+
+                <h5>College of Computing & Information Sciences</h5>
+                <ul>
+                    <li>BS in Information Technology (BSIT)</li>
+                    <li>BS in Computer Science (BSCS) - Bundled</li>
+                    <li>Bachelor of Library and Information Science (BLIS) - Bundled</li>
+                    <li>BS in Information Systems (BSIS) - Bundled</li>
+                </ul>
+
+                <h5>College of Criminal Justice Education</h5>
+                <ul>
+                    <li>Bachelor of Science in Criminology</li>
+                </ul>
+
+                <h5>College of Tourism, Hospitality, and Management</h5>
+                <ul>
+                    <li>Bachelor of Science in Accounting Information System (BSAIS)</li>
+                </ul>
+
+                <h5>College of Teacher Education</h5>
+                <ul>
+                    <li>Bachelor of Secondary Education Major in English</li>
+                    <li>Bachelor of Secondary Education Major in Science</li>
+                    <li>Bachelor of Secondary Education Major in Social Studies - Bundled</li>
+                    <li>Bachelor of Secondary Education Major in Mathematics - Bundled</li>
+                    <li>Bachelor of Elementary Education</li>
+                    <li>Bachelor of Physical Education</li>
+                    <li>Bachelor of Technical-Vocational Teacher Education - Bundled</li>
+                </ul>
+
+                <h5>College of Business and Management</h5>
+                <ul>
+                    <li>Bachelor of Science in Business Administration Major in Financial Management (FM)</li>
+                    <li>Bachelor of Science in Business Administration Major in Marketing Management (MM)</li>
+                    <li>Bachelor of Science in Business Administration Major in Human Resource Management (HRM)</li>
+                    <li>Bachelor of Science in Entrepreneurship (BSE) - Bundled</li>
+                    <li>Bachelor of Public Administration (BPA) - Bundled</li>
+                    <li>Bachelor of Science in Business Administration Major in Operations Management (OM) (CHED Approval Pending)</li>
+                    <li>Bachelor of Science in Business Administration Major in Business Economics (BE) (CHED Approval Pending)</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container my-5">
+    <h2 class="text-center">Contact Us</h2>
+    <p>Reach us at:</p>
+    <ul>
+        <li>📍 Atupan Street, Nasipit, Agusan del Norte</li>
+        <li>📞 +63 912 345 6789</li>
+        <li>📧 info@smcc.edu.ph</li>
+    </ul>
+</section>
+
+<!-- Footer -->
+<footer class="bg-warning text-center py-3">
+    <p>© 2025 SMCC Website</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
